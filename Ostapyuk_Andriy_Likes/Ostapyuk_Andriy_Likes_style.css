@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+.network {
+background-color: black;
+color: white;
+padding: 15px;
+}
+.feed {
+    padding: 15px;
+text-align: center;
+}
+.content {
+    display: flex;
+    gap: 50px;
+}
+.lcolumn {
+flex: 1;
+
+}
+.avatar {
+    border-style: solid;
+    border-color: black;
+    height: 250px;
+}
+.user {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.hypertext {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+.name {
+    text-align: center;
+    margin-top: 20px;
+}
+.rcolumn {
+flex: 4;
+
+}
+.box1 {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.numoflikes {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    margin-top: 20px;
+    text-align: center;
+}
+.butlike {
+    margin-bottom: 10px;
+    background-color: yellow;
+    padding: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+}

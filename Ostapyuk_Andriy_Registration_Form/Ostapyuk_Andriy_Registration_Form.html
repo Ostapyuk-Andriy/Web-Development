@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+    <h1>
+        Registration Form
+    </h1>
+    <div>
+        <label for="first_name">
+            First Name: *
+        </label>
+    <input type="text" name="first_name">
+    </div>
+    <div>
+        <label for="last_name">
+            Last Name: *
+        </label>
+    <input type="text" name="last_name">
+    </div>
+    <div>
+        <label for="email_address">
+            Email Address: *
+        </label>
+    <input type="text" name="email_address">
+    </div>
+    <div>
+        <label for="password">
+            Password: *
+        </label>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <label for="confirm_password">
+            Confirm Password: *
+        </label>
+        <input type="password" name="confirm_password">
+    </div>
+    <div>
+        <label for="birthday">
+            Birthday:  
+        </label>
+    <input type="date" name="birthday">
+    </div>
+    <div>
+        <label for="gender_identity">
+            Gender Identity
+        </label>
+    </div>
+    <div>
+        <input type="radio" name="gender_identity" value="male" 
+        id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender_identity" value="female" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender_identity" value="non_binary" 
+        id="non_binary">
+        <label for="non_binary">Non-Binary</label>
+        <input type="radio" name="gender_identity" value="i_prefer_not_to_answer" 
+        id="i_prefer_not_to_answer">
+        <label for="i_prefer_not_to_answer">I prefer not to answer</label>
+    </div>
+    <div>
+        <label for="a_short_description_about_myself"> A short description about myself:
+        </label>
+    </div>
+    <div>
+        <textarea name="a_short_description_about_myself" cols="40" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="favorite_language">
+            Favorite Language:
+        </label>
+        <select name="favorite_language">
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>C++</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to receive pereodic email updates</label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account" >
+    </div>
+    <div>
+        <p>* Indicates a required field</p>
+    </div>
+    </body>
+</html>

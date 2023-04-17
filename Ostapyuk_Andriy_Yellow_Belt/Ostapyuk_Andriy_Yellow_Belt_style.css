@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 950px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.topnav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 10px 10px 10px 0px;
+    background-color: turquoise;
+}
+.signIn {
+    border: none;
+    background-color: transparent;
+    font-size: larger;
+}
+#searchbar {
+    width: 600px;
+    border-radius: 20px;
+    padding: 7px;
+    background: url(assets/search-dark.png) no-repeat right;
+    background-size: 20px;
+    
+}
+#cart {
+    width: 40px;
+}
+.botnav {
+    height: 50px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10px;
+}
+.underline {
+    height: 5px;
+    background-color: black;
+    margin-top: 10px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cont1 {
+    display: flex;
+    height: 300px;
+    gap: 25px;
+}
+.leftcont {
+    flex: 2;
+    background-color: turquoise;
+    display: flex;
+}
+.rightcont {
+flex: 1.01;
+
+}
+#succul {
+    height: 300px;
+}
+.discover {
+    font-size: xx-large;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.arrow {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aloe {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    justify-content: center;
+    background-color: turquoise;
+    margin-top: 14px;
+}
+.cont2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    padding-bottom: 25px;
+}
+.plant {
+    text-align: center;
+}
+.plantImg {
+    width: 140px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.plantTxt {
+    margin-top: 10px;
+}
+#alertbo {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    bottom: 29px;
+
+}
+.accept {
+    background-color: lightgreen;
+    border-color: black;
+    color: white;
+    margin-left: 15px;
+    padding: 2px 7px 2px 7px;
+    box-shadow: 5px 5px 5px black;
+}

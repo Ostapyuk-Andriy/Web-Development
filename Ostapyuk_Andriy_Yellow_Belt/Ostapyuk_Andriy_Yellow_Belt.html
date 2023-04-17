@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt</title>
+    <link rel="stylesheet" href="Ostapyuk_Andriy_Yellow_Belt_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topnav">
+            <img class="logo" src="assets/leaf.png" alt="leaf">
+            <h1>EasyBay</h1>
+            <input placeholder="search for anything" id="searchbar" type="text">
+            <button class="signIn">Sign In</button>
+            <img id="cart" onclick="alertcart()" src="assets/cart-dark.png" alt="cart-dark">
+        </div>
+        <div class="botnav">
+            <ul class="list">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+            <div class="underline">
+
+            </div>
+        </div>
+        <div class="title">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <div class="cont1">
+            <div class="leftcont">
+                <div class="discover">
+                    <p>Discover succulent varieties one pot or rack at a time!</p>
+                    <div class="arrow">
+                        <h3>Discover</h3>
+                        <img src="assets/arrow-light.png" alt="arrow-light">
+                    </div>
+                </div>
+                <img id="succul" onmouseover="over(this)" onmouseout="out(this)" src="assets/succulents-1.jpg" alt="succulents-1">
+            </div>
+            <div class="rightcont">
+                <img src="assets/aloe-m.jpg" alt="aloe-m">
+                <div class="aloe">
+                    <h3>Soothing Aloe</h3>
+                    <img src="assets/arrow-light.png" alt="arrow-light">
+                </div>
+            </div>
+        </div>
+        <div class="cont2">
+            <div class="plant">
+                <img class="plantImg" src="assets/aeonium-s.jpg" alt="aeonium-s">
+                <p class="plantTxt">Aeonium</p>
+            </div>
+            <div class="plant">
+                <img class="plantImg" src="assets/aloe-s.jpg" alt="aloe-s">
+                <p class="plantTxt">Aloe</p>
+            </div>
+            <div class="plant">
+                <img class="plantImg" src="assets/cactus-s.jpg" alt="cactus-s">
+                <p class="plantTxt">Cactus</p>
+            </div>
+            <div class="plant">
+                <img class="plantImg" src="assets/echeveria-s.jpg" alt="echeveria-s">
+                <p class="plantTxt">Echeveria</p>
+            </div>
+            <div class="plant">
+                <img class="plantImg" src="assets/sedum-s.jpg" alt="sedum-s">
+                <p class="plantTxt">Sedum</p>
+            </div>
+            <div class="plant">
+                <img class="plantImg" src="assets/sempervivum-s.jpg" alt="sempervivum-s">
+                <p class="plantTxt">Sempervivum</p>
+            </div>
+        </div>
+        <div id="alertbo">
+            <img src="assets/alert-dark.png" alt="alert-dark">
+            <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a>.</p>
+            <button class="accept" onclick="hide('#alertbo')">I Accept</button>
+        </div>
+    </div>
+
+    <script src="Ostapyuk_Andriy_Yellow_Belt_script.js"></script>
+</body>
+</html>

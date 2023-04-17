@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 800px;
+    
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+background-color: lightgray;
+padding: 10px;
+}
+#log {
+    background-color: lightskyblue;
+    padding: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+}
+.content {
+display: flex;
+gap: 25px;
+margin-top: 25px;
+}
+.lcolumn {
+flex: 2;
+
+}
+.ninja1 {
+    display: flex;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+    align-items: center;
+}
+.ninja2 {
+    margin-top: 25px;
+    display: flex;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+    align-items: center;
+}
+.definition {
+    align-items: center;
+}
+#likes {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    padding: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.mtext {
+    margin-top: 10px;
+    
+}
+.text {
+    width: 300px;
+    margin-left: 20px;
+}
+.rcolumn {
+flex: 1;
+
+}
+.dojo {
+    height: 120px;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+}
+#adddef {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 190px;
+    background-color: lightgreen;
+    padding: 5px;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+    
+    
+}
